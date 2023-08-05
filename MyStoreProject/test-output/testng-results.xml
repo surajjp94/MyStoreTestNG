@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-05T13:03:16 IST" name="Suite" finished-at="2023-08-05T13:03:37 IST" duration-ms="20866">
+    <groups>
+      <group name="smoke">
+        <method signature="IndexPageTest.VerifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@2aceadd4]" name="VerifyLogo" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="IndexPageTest.VerifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@2aceadd4]" name="VerifyTitle" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@24269709]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@24269709]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-08-05T13:03:16 IST" name="smoke" finished-at="2023-08-05T13:03:37 IST" duration-ms="20866">
+      <class name="com.mystore.testcases.OrderSummeryPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.OrderSummeryPageTest@367ffa75]" started-at="2023-08-05T13:03:15 IST" name="loadConfig" finished-at="2023-08-05T13:03:16 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+      </class> <!-- com.mystore.testcases.OrderSummeryPageTest -->
+      <class name="com.mystore.testcases.IndexPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.mystore.testcases.IndexPageTest@2aceadd4]" started-at="2023-08-05T13:03:16 IST" name="Setup" finished-at="2023-08-05T13:03:23 IST" duration-ms="6918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@2aceadd4]" started-at="2023-08-05T13:03:36 IST" name="VerifyLogo" finished-at="2023-08-05T13:03:36 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogo -->
+        <test-method signature="VerifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@2aceadd4]" started-at="2023-08-05T13:03:36 IST" name="VerifyTitle" finished-at="2023-08-05T13:03:36 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@2aceadd4]" started-at="2023-08-05T13:03:36 IST" name="tearDown" finished-at="2023-08-05T13:03:37 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.IndexPageTest -->
+      <class name="com.mystore.testcases.LoginPageTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@24269709]" started-at="2023-08-05T13:03:24 IST" name="loginTest" data-provider="credentials" finished-at="2023-08-05T13:03:36 IST" duration-ms="12013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[surajsuri07@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.mystore.testcases.LoginPageTest -->
+    </test> <!-- smoke -->
+  </suite> <!-- Suite -->
+</testng-results>
